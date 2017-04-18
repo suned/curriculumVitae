@@ -1,0 +1,293 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Friggeri Resume/CV
+% XeLaTeX Template
+% Version 1.0 (5/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Adrien Friggeri (adrien@friggeri.net)
+% https://github.com/afriggeri/CV
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important notes:
+% This template needs to be compiled with XeLaTeX and the bibliography, if used,
+% needs to be compiled with biber rather than bibtex.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{friggeri-cv} % Add 'print' as an option into the square bracket to remove colors from this template for printing
+
+\addbibresource{bibliography.bib} % Specify the bibliography file to include publications
+
+\begin{document}
+
+\header{Sune}{Debel}{software developer} % Your name and current job title/field
+
+%----------------------------------------------------------------------------------------
+%	SIDEBAR SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{aside} % In the aside, each new line forces a line break
+\section{contact}
+Vester Voldgade 2, 4 th
+Copenhagen V, 1552
+Denmark
+~
++45 31626801
+~
+\href{mailto:sd@dybro-debel.dk}{sd@dybro-debel.dk}
+%\href{http://www.smith.com}{http://www.smith.com}
+%\href{http://facebook.com/johnsmith}{fb://jsmith}
+\section{languages}
+danish mother tongue
+english fluency
+basic french \& german
+\section{programming}
+C\# F\# Java Scala C R 
+Python Objective C 
+TypeScript JavaScript 
+HTML CSS
+\end{aside}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{education}
+
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{2015--Now}
+{MSc {\normalfont of IT and Cognition}}
+{University of Copenhagen}
+{Specialisation in Computational\\and Mathematical Modelling}
+\entry
+{2011--2015}
+{Bachelor {\normalfont of Software Development}}
+{IT University of Copenhagen, Copenhagen}
+{}
+%------------------------------------------------
+\entry
+{2006}
+{Conscript {\normalfont in the Danish Armed Forces}}
+{Engineering Regiment, Skive}
+{Advanced first aid and basic fire-fighting}
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{experience}
+%------------------------------------------------
+
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{2015-Now}
+{Monsenso}
+{Copenhagen, Denmark}
+{\emph{Software Developer}
+\begin{itemize}
+	\item Building Apache Spark applications in Scala.
+	\item NoSQL data modelling.
+	\item Exploratory data analysis in Python.
+	\item Cross-platform mobile applications programming.
+	\item Programming back-end and front-end of web\\applications.
+\end{itemize}}
+%------------------------------------------------
+\entry
+{2014-2015}
+{IT University of Copenhagen}
+{Copenhagen, Denmark}
+{\emph{Teaching Assistant}
+\begin{itemize}
+	\item Instructing graduate students in the course \\\emph{Programming Language Concepts and\\Implementations}
+	\item Grading student hand-ins written in C\#.
+	\item Supervising exercise sessions and supervising\\students with programming problems related to\\programming language theory such as lexing,\\parsing, compilation etc.
+\end{itemize}}
+%------------------------------------------------
+\entry
+{2014}
+{IT University of Copenhagen}
+{Copenhagen, Denmark}
+{\emph{Teaching Assistant}
+\begin{itemize}
+	\item Instructing undergraduate students in the course \\\emph{Mobile and Distributed Systems}
+	\item Grading student hand-ins written in Java.
+	\item Supervising exercise sessions and supervising\\students with programming problems related to\\distributed systems theory.
+\end{itemize}}
+%------------------------------------------------
+\entry
+{2014-2015}
+{IT University of Copenhagen}
+{Copenhagen, Denmark}
+{\emph{Teaching Assistant}
+\begin{itemize}
+	\item Instructing undergraduate students in the course \\\emph{First-year Project: Map of Denmark:\\Visualization, Navigation, Searching, and Route\\Planning}
+	\item Supervising students in a large-scale group\\programming project, written in Java.
+\end{itemize}}
+%------------------------------------------------
+\end{entrylist}
+\begin{entrylist} 
+\entry
+{2014}
+{IT University of Copenhagen}
+{Copenhagen, Denmark}
+{\emph{Teaching Assistant}
+\begin{itemize}
+	\item Instructing undergraduate students in the course \\\emph{Functional Programming}
+	\item Grading student programming hand-ins, written in\\F\#
+\end{itemize}}
+%------------------------------------------------
+\entry
+{2013}
+{IT University of Copenhagen}
+{Copenhagen, Denmark}
+{\emph{Teaching Assistant}
+\begin{itemize}
+	\item Instructing undergraduate students in the course \\\emph{Introductory Programming}
+	\item Grading student programming hand-ins, written in\\Java
+	\item Supervising students in a group programming\\project
+\end{itemize}}
+%------------------------------------------------
+\end{entrylist}
+\begin{entrylist}
+\entry
+{2011--2012}
+{PostDK}
+{Copenhagen, Denmark}
+{\emph{On-Site Hardware Supporter}
+\begin{itemize}
+	\item Maintenance, configuration and trouble-shooting of
+			\begin{itemize}
+				\item Network hardware
+				\item PC hardware
+				\item Printers
+			\end{itemize}
+	\item Windows user administration
+\end{itemize}}
+%------------------------------------------------
+\entry
+{2009-2010}
+{YouSee}
+{Copenhagen, Denmark}
+{\emph{Customer Hardware Supporter}
+\begin{itemize}
+	\item Advising customers on hardware options
+	\item Troubleshooting customer hardware
+	\item Assisting customers with hardware and software\\configuration
+\end{itemize}}
+%------------------------------------------------
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+\section{technical strengths}
+
+
+%------------------------------------------------
+\begin{tabular}{p{3cm} l}
+	\textbf{Protocols} & REST, SOAP, TCP, HTTP \\
+	\textbf{Databases} & MySQL, Microsoft SQL, \\
+					   & CouchSpace \\
+	\textbf{Tools} & GIT, UML, Visual Studio, Eclipse \\
+				   & Jira, Grunt, Karma \\
+	\textbf{Frameworks} & Entity Framework, WCF, LINQ, JDBC, \\
+						& AngularJS, NodeJS, NancyFX, \\
+						& Apache Cordova, Jasmine \\
+						& Bootstrap \\
+	\textbf{Theory} & OOAD, Design patterns, Algorithms and data-structures, \\
+					& Database Design, Programming language theory, \\ 
+					& Operating systems theory, User interface design theory, \\
+					& Software engineering, Data mining
+
+\end{tabular}
+% \entry
+% {}
+% {Protocols}
+% {}
+% {REST, SOAP}
+
+% \entry
+% {}
+% {Databases}
+% {}
+% {MySQL, Microsoft SQL}
+
+% \entry
+% {}
+% {Tools}
+% {}
+% {GIT, UML, Visual Studio, Eclipse}
+
+% \entry
+% {}
+% {Frameworks}
+% {}
+% {Entity Framework, WCF, LINQ, JDBC}
+%------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	COMMUNICATION SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+% \section{communication skills}
+
+% \begin{entrylist}
+% %------------------------------------------------
+% \entry
+% {2011}
+% {Oral Presentation}
+% {California Business Conference}
+% {Presented the research I conducted for my Masters of Commerce degree.}
+% %------------------------------------------------
+% \entry
+% {2010}
+% {Poster}
+% {Annual Business Conference, Oregon}
+% {As part of the course work for BUS320, I created a poster analyzing several local businesses and presented this at a conference.}
+% %------------------------------------------------
+%\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{interests}
+
+\textbf{professional:} AI and machine learning, data mining, programming language design, software architecture, OO analysis and design \textbf{personal:} music, cooking, sailing, diving, hiking
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS SECTION
+%----------------------------------------------------------------------------------------
+
+% \section{publications}
+
+% \printbibsection{article}{article in peer-reviewed journal} % Print all articles from the bibliography
+
+% \printbibsection{book}{books} % Print all books from the bibliography
+
+% \begin{refsection} % This is a custom heading for those references marked as "inproceedings" but not containing "keyword=france"
+% \nocite{*}
+% \printbibliography[sorting=chronological, type=inproceedings, title={international peer-reviewed conferences/proceedings}, notkeyword={france}, heading=subbibliography]
+% \end{refsection}
+
+% \begin{refsection} % This is a custom heading for those references marked as "inproceedings" and containing "keyword=france"
+% \nocite{*}
+% \printbibliography[sorting=chronological, type=inproceedings, title={local peer-reviewed conferences/proceedings}, keyword={france}, heading=subbibliography]
+% \end{refsection}
+
+% \printbibsection{misc}{other publications} % Print all miscellaneous entries from the bibliography
+
+% \printbibsection{report}{research reports} % Print all research reports from the bibliography
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
