@@ -1,0 +1,45 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.8 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{1}
+  \sortlist[entry]{ydnt/global/}
+    \entry{friggeri:2011:inria-00490195:2}{article}{}
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{{International Journal of Methods in Psychiatric Research}}
+      \field{month}{12}
+      \field{number}{4}
+      \field{title}{{Behavioral activities collected through smartphones and the association with illness activity in bipolar disorder}}
+      \field{volume}{25}
+      \field{year}{2016}
+      \field{pages}{309\bibrangedash 323}
+      \range{pages}{15}
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/mpr.1502
+      \endverb
+      \warn{\item Name "Maria Faurholt-Jepsen, Maj Vinberg, Mads Frost, Sune Debel, Ellen Margrethe Christensen, Jakob Eyvind Bardram, Lars Vedel Kessing" has too many commas: skipping name}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+
